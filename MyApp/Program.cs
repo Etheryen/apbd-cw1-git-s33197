@@ -9,3 +9,8 @@ static double CalculateAverage(int[] values) =>
     values.Average();
 
 Console.WriteLine("\nAverage is: " + CalculateAverage([.. nums]));
+
+static int CalculateMax(int[] values) =>
+    values.Max();
+
+Console.WriteLine("\nMax is: " + CalculateMax([.. nums]));
