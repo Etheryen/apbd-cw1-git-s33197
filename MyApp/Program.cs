@@ -16,4 +16,4 @@ static int CalculateMax(int[] values) =>
 Console.WriteLine("\nMax is: " + CalculateMax([.. nums]));
 
 static int CalculateMin(int[] values) =>
-    throw new NotImplementedException("TODO");
+    values.Min();
