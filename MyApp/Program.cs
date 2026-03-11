@@ -5,7 +5,7 @@ Console.WriteLine();
 
 Console.WriteLine("\nHello, check these numbers out!");
 
-static int CalculateAverage(int[] values)
-{
-    throw new NotImplementedException("TODO");
-}
+static double CalculateAverage(int[] values) =>
+    values.Average();
+
+Console.WriteLine("\nAverage is: " + CalculateAverage([.. nums]));
