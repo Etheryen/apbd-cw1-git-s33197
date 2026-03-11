@@ -4,3 +4,8 @@ foreach (var num in nums)
 Console.WriteLine();
 
 Console.WriteLine("\nHello, check these numbers out!");
+
+static int CalculateAverage(int[] values)
+{
+    throw new NotImplementedException("TODO");
+}
