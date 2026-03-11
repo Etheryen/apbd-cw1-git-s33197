@@ -17,3 +17,5 @@ Console.WriteLine("\nMax is: " + CalculateMax([.. nums]));
 
 static int CalculateMin(int[] values) =>
     values.Min();
+
+Console.WriteLine("\nMin is: " + CalculateMin([.. nums]));
