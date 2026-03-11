@@ -2,4 +2,4 @@
 foreach (var num in nums)
     Console.WriteLine(num);
 
-Console.WriteLine("Hello, World!");
+Console.WriteLine("Hello, check these numbers out!");
