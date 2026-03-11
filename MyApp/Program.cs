@@ -3,7 +3,7 @@ foreach (var num in nums)
     Console.Write(num);
 Console.WriteLine();
 
-Console.WriteLine("\nHello, check these numbers out!");
+Console.WriteLine("\nHi, check these numbers out!");
 
 static double CalculateAverage(int[] values) =>
     values.Average();
